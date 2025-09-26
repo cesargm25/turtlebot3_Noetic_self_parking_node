@@ -35,7 +35,7 @@ Your robot (or simulator, e.g., TurtleBot in Gazebo) must publish odometry on `/
 Clone the script into your ROS workspace (in my case is turtlebot3_ws):
 
 ```bash
-cd ~/catkin_ws/src
-git clone https://github.com/turtlebot3_ws/self_parking_robot.git
-cd ~/catkin_ws
+cd ~/turtlebot3_ws/src
+git clone https://github.com/cesargm25/turtlebot3_Noetic_self_parking_node.git
+cd ~/turtlebot3_ws
 catkin_make
